@@ -1,0 +1,10 @@
+nitrogen --restore &
+
+bash /home/shitlord/.scripts/background &
+
+bash /home/shitlord/.scripts/audio &
+
+bash /home/shitlord/.scripts/conkystarter &
+
+bash /home/shitlord/.scripts/music
+

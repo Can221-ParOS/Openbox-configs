@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="2" label="Editors">
+            <item label="AA Fire"> <action name="Execute">
+                <execute>termite -e aafire -driver slang</execute>
+            </action> </item>
+            <item label="Nano"> <action name="Execute">
+                <execute>termite -e nano</execute>
+            </action> </item>
+            <item label="Vim"> <action name="Execute">
+                <execute>vim</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <menu id="9" label="Adventure">
+                <item label="Sclient"> <action name="Execute">
+                    <execute>sclient</execute>
+                </action> </item>
+            </menu>
+            <menu id="10" label="Arcade">
+                <item label="PacMan"> <action name="Execute">
+                    <execute>pacman</execute>
+                </action> </item>
+            </menu>
+            <menu id="11" label="Board">
+                <item label="Checkers"> <action name="Execute">
+                    <execute>checkers</execute>
+                </action> </item>
+            </menu>
+            <menu id="13" label="Puzzle">
+                <item label="Block Attack!"> <action name="Execute">
+                    <execute>blocks</execute>
+                </action> </item>
+                <item label="Sudoku"> <action name="Execute">
+                    <execute>sudoku</execute>
+                </action> </item>
+            </menu>
+            <menu id="14" label="Simulation">
+                <item label="FlightGear"> <action name="Execute">
+                    <execute>fgfs --launcher</execute>
+                </action> </item>
+            </menu>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="Flameshot"> <action name="Execute">
+                <execute>flameshot</execute>
+            </action> </item>
+            <item label="SimpleSreenRecorder"> <action name="Execute">
+                <execute>simplescreenrecorder</execute>
+            </action> </item>
+            <item label="Geeqie"> <action name="Execute">
+                <execute>geeqie</execute>
+            </action> </item>
+            <item label="GNU Image Manipulation Program"> <action name="Execute">
+                <execute>gimp-2.10</execute>
+            </action> </item>
+            <item label="GraphicsMagick"> <action name="Execute">
+                <execute>gm display logo:</execute>
+            </action> </item>
+            <item label="Inkscape"> <action name="Execute">
+                <execute>inkscape</execute>
+            </action> </item>
+            <item label="LibreOffice Draw"> <action name="Execute">
+                <execute>libreoffice --draw</execute>
+            </action> </item>
+            <item label="LightZone"> <action name="Execute">
+                <execute>lightzone</execute>
+            </action> </item>
+            <item label="The GIMP"> <action name="Execute">
+                <execute>gimp</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="ALSA mixer"> <action name="Execute">
+                <execute>termite -e alsamixer</execute>
+	    </action> </item>  
+	    <item label="AmSynth"> <action name="Execute">  
+                <execute>amsynth</execute>  
+            </action> </item>  
+            <item label="Ardour"> <action name="Execute">
+                <execute>ardour6</execute>
+            </action> </item>
+            <item label="Cadence"> <action name="Execute">
+                <execute>cadence</execute>
+            </action> </item>
+            <item label="Catia"> <action name="Execute">
+                <execute>catia</execute>
+	    </action> </item>     
+	    <item label="Helm"> <action name="Execute">  
+		<execute>helm-synth</execute>  
+	    </action> </item>   
+	    <item label="Hydrogen"> <action name="Execute">  
+                <execute>hydrogen</execute>  
+	    </action> </item> 		
+            <item label="LMMS"> <action name="Execute">
+                <execute>lmms</execute>
+            </action> </item>
+            <item label="mpv Media Player"> <action name="Execute">
+                <execute>mpv --player-operation-mode=pseudo-gui</execute>
+            </action> </item>
+            <item label="OBS Studio"> <action name="Execute">
+                <execute>obs</execute>
+	    </action> </item>
+            <item label="Mustang-Plug"> <action name="Execute">
+		<execute>plug</execute>
+            </action> </item>	
+            <item label="PNMixer"> <action name="Execute">
+                <execute>pnmixer</execute>
+            </action> </item>
+            <item label="PulseAudio Volume Control"> <action name="Execute">
+                <execute>pavucontrol</execute>
+            </action> </item>
+            <item label="Qt V4L2 test Utility"> <action name="Execute">
+                <execute>qv4l2</execute>
+            </action> </item>
+            <item label="Qt V4L2 video capture utility"> <action name="Execute">
+                <execute>qvidcap</execute>
+	    </action> </item>  
+	    <action label="Rakarrack"> <action name="Execute">  
+                <execute>rackarrack</execute>   
+	    </action> </item>	
+            <item label="Rhythmbox"> <action name="Execute">
+                <execute>rhythmbox</execute>
+	    </action> </item>
+	    <item label="Midi Keyboard"> <action name="Execute">
+		<execute>vmpk</execute>
+	    </action> </item>		
+	    <item label="Yoshimi"> <action name="Execute">  
+		<execute>yoshimi</execute>  
+	    </action> </item>		
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Avahi SSH Server Browser"> <action name="Execute">
+                <execute>bssh</execute>
+            </action> </item>
+            <item label="Avahi VNC Server Browser"> <action name="Execute">
+                <execute>bvnc</execute>
+            </action> </item>
+            <item label="Discord"> <action name="Execute">
+		<execute>discord</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="Mail Reader"> <action name="Execute">
+                <execute>exo-open --launch MailReader</execute>
+            </action> </item>
+            <item label="TkVNC"> <action name="Execute">
+                <execute>termite -e tkvnc</execute>
+            </action> </item>
+            <item label="Transmission"> <action name="Execute">
+                <execute>transmission-gtk</execute>
+            </action> </item>
+            <item label="Web Browser"> <action name="Execute">
+                <execute>exo-open --launch WebBrowser</execute>
+            </action> </item>
+        </menu>
+        <menu id="3" label="Office">
+            <item label="LibreOffice Calc"> <action name="Execute">
+                <execute>libreoffice --calc</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice --impress</execute>
+            </action> </item>
+            <item label="LibreOffice Math"> <action name="Execute">
+                <execute>libreoffice --math</execute>
+            </action> </item>
+            <item label="LibreOffice Writer"> <action name="Execute">
+                <execute>libreoffice --writer</execute>
+            </action> </item>
+            <item label="PostgreSQL Database"> <action name="Execute">
+                <execute>termite -e psql template1</execute>
+            </action> </item>
+            <item label="Zathura"> <action name="Execute">
+                <execute>zathura</execute>
+            </action> </item>
+        </menu>
+        <menu id="4" label="Science">
+            <item label="bc"> <action name="Execute">
+                <execute>termite -e bc</execute>
+            </action> </item>
+            <item label="dc"> <action name="Execute">
+                <execute>termite -e dc</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="Files"> <action name="Execute">
+		<execute>nautilus</execute>
+	    </action> </item>			    
+            <item label="GIT"> <action name="Execute">
+                <execute>termite -e git</execute>
+            </action> </item>
+            <item label="Termite"> <action name="Execute">
+                <execute>termite</execute>
+            </action> </item>
+            <item label="UXTerm"> <action name="Execute">
+                <execute>uxterm</execute>
+            </action> </item>
+            <item label="Xterm"> <action name="Execute">
+                <execute>xterm</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <menu id="21" label="GNOME">
+                    <item label="Adobe Flash Player"> <action name="Execute">
+                        <execute>flash-player-properties</execute>
+                    </action> </item>
+                </menu>
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Manage Printing"> <action name="Execute">
+                    <execute>xdg-open http://localhost:631/</execute>
+                </action> </item>
+                <item label="nitrogen"> <action name="Execute">
+                    <execute>nitrogen</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>libfm-pref-apps</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>exo-preferred-applications</execute>
+                </action> </item>
+                <item label="Tint2 Settings"> <action name="Execute">
+                    <execute>tint2conf</execute>
+                </action> </item>
+                <item label="Window Effects"> <action name="Execute">
+                    <execute>compton-conf</execute>
+                </action> </item>
+            </menu>
+            <item label="Android File Transfer (MTP)"> <action name="Execute">
+                <execute>android-file-transfer</execute>
+            </action> </item>
+            <item label="Avahi Zeroconf Browser"> <action name="Execute">
+                <execute>avahi-discover</execute>
+            </action> </item>
+            <item label="conky"> <action name="Execute">
+                <execute>conky --daemonize --pause=1</execute>
+            </action> </item>
+            <item label="Conky"> <action name="Execute">
+                <execute>termite -e conky</execute>
+            </action> </item>
+            <item label="GParted"> <action name="Execute">
+                <execute>gparted</execute>
+            </action> </item>
+            <item label="Hardware Locality lstopo"> <action name="Execute">
+                <execute>lstopo</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>termite -e htop</execute>
+            </action> </item>
+            <item label="OpenJDK Java 14 Console"> <action name="Execute">
+                <execute>jconsole</execute>
+            </action> </item>
+            <item label="OpenJDK Java 14 Shell"> <action name="Execute">
+                <execute>termite -e jshell</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>termite -e pstree</execute>
+            </action> </item>
+            <item label="Pstree"> <action name="Execute">
+                <execute>termite -e pstree.x11</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>termite -e /usr/bin/pstree.x11</execute>
+            </action> </item>
+            <item label="SUSE Studio Imagewriter"> <action name="Execute">
+                <execute>imagewriter</execute>
+            </action> </item>
+            <item label="Tint2"> <action name="Execute">
+                <execute>tint2</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>termite -e top</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="About Xfce"> <action name="Execute">
+		<execute>xfce4-about</execute>
+            </action> </item>
+            <item label="Power Settings"> <action name="Execute">
+                <execute>xfce4-power-manager -c</execute>
+            </action> </item>
+            <item label="Catarina"> <action name="Execute">
+                <execute>catarina</execute>
+            </action> </item>
+            <item label="compton"> <action name="Execute">
+                <execute>compton</execute>
+            </action> </item>
+            <item label="Conky Manager"> <action name="Execute">
+                <execute>conky-manager</execute>
+            </action> </item>
+            <item label="Console Matrix (Text)"> <action name="Execute">
+                <execute>termite -e cmatrix</execute>
+            </action> </item>
+            <item label="Console Matrix (Virtual Console)"> <action name="Execute">
+                <execute>termite -e cmatrix -l</execute>
+            </action> </item>
+            <item label="Console Matrix (X11)"> <action name="Execute">
+                <execute>cmatrix -x</execute>
+            </action> </item>
+            <item label="File Manager"> <action name="Execute">
+                <execute>exo-open --launch FileManager</execute>
+            </action> </item>
+            <item label="Info"> <action name="Execute">
+                <execute>termite -e info</execute>
+            </action> </item>
+            <item label="picom"> <action name="Execute">
+                <execute>picom</execute>
+            </action> </item>
+            <item label="Terminal Emulator"> <action name="Execute">
+                <execute>termite</execute>
+            </action> </item>
+            <item label="Tweaks"> <action name="Execute">
+                <execute>gnome-tweaks</execute>
+	    </action> </item>
+	    <item label="Manpage"> <action name="Execute">
+		<execute>manpage</execute>
+	    </action> </item>	
+        </menu>  
+	<separator/>
+	    <item label="Steam"> <action name="Execute">
+		<execute>steam</execute>
+	    </action> </item>
+	    <item label="PlayOnLinux"> <action name="Execute">
+		<execute>playonlinux</execute>
+	    </action> </item>
+	<separator/>
+	    <item label="Gimp"> <action name="Execute">
+		<execute>gimp</execute>
+	    </action> </item> 
+	    <item label="LightZone"> <action name="Execute">
+		<execute>lightzone</execute>
+	    </action> </item>			    
+	<separator/>
+	    <item label="Termite"> <action name="Execute">
+		<execute>termite</execute>
+	    </action> </item> 
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+	    <item label="Exit"> <action name="Exit"/> </item> 
+	</menu>		
+     </menu>			
+</openbox_menu>
